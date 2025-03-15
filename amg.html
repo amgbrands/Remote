@@ -1,20 +1,185 @@
 <!DOCTYPE html>
-<html>
-    <head>
+<html lang="en">
+
+<head>
+    <!-- Metadata and Page Configuration -->
+    <meta charset="UTF-8">
+    <meta name="keywords" content="Digital marketing services, Professional services in IT, AMG Brands.ke, iamalvinmwangi">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AMG Brands Portfolio</title>
+    <style>
+        /* Ensure full-width alignment */
+        body {
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
         
-       <meta charset="UTF-8"> 
-       <meta name="keywords" content="Digital marketing services, Proffesional services in IT, AMG Brands.ke, iamalvinmwangi">
-       <title>AMG Brands Portfolio</title>
-    </head>
-    <body>
-        <p><h1>AMG Brands KE</h1>
-        <h2>Who are we?</h2>
-        Your trusted partner for high-quality computer hardware, components, and professional ICT services
-        <h3>Our Product catalogue</h3>
-        <h2>Leadership</h2>
-        </p>
-        <footer>
-            <P>AMG 2025</P>
-        </footer>
-    </body>
+        /* Center header content */
+        header {
+            background-color: #333;
+            color: white;
+            padding: 15px 0;
+        }
+
+        /* Navigation styling */
+        nav {
+            margin-top: 10px;
+        }
+
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+
+        /* Center all sections */
+        main, section, footer {
+            width: 80%;
+            margin: auto;
+            text-align: left;
+        }
+
+        /* Style lists */
+        ol, ul {
+            margin-left: 30px;
+        }
+
+        /* Style the fieldset */
+        fieldset {
+            border: 2px solid #ccc;
+            padding: 15px;
+            margin-bottom: 15px;
+            border-radius: 8px;
+        }
+
+        /* Style the submit button */
+        button {
+            background-color: #333;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>AMG Brands KE</h1>
+
+        <!-- Navigation Menu -->
+        <nav>
+            <a href="#leadership-media">Leadership & Media</a>
+            <a href="#services">Top Tier Services</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- About Section -->
+        <section id="about">
+            <h2>Who Are We?</h2>
+            <p>Your trusted partner for high-quality computer hardware, components, and professional ICT services.</p>
+        </section>
+
+        <!-- Services Section -->
+        <article id="services">
+            <h2>Our Product Catalogue</h2>
+            <ol>
+                <li>Digital Management
+                    <ul>
+                        <li>Content Management & Scheduling</li>
+                        <li>Page Analysis & Analytics Management</li>
+                    </ul>
+                </li>
+                <li>ICT Services Consultancy</li>
+                <li>Web Development & Design</li>
+            </ol>
+        </article>
+    </main>
+
+    <!-- Leadership and Media Section -->
+    <section id="leadership-media">
+        <h2>Leadership & Media</h2>
+
+        <!-- Local Image -->
+        <div>
+            <img src="N:/Projects/PLP Africa_SE/Images/Alvin.jpg" width="300" height="200" alt="Imagineer & Futuristic">
+        </div>
+
+        <!-- Embedded YouTube Video (Autoplay 0s - 16s) -->
+        <div>
+            <iframe width="640" height="360" 
+                src="https://www.youtube.com/embed/sxq2euXv6Vg?start=0&end=16&autoplay=1&mute=1"
+                title="YouTube video player" 
+                frameborder="0" 
+                allow="autoplay; encrypted-media" 
+                allowfullscreen>
+            </iframe>
+        </div>
+
+        <!-- Audio Section -->
+        <div>
+            <audio controls>
+                <source src="N:/Projects/PLP Africa_SE/music/mixxtape.mp3" type="audio/mp3">
+                Your browser does not support the audio element.
+            </audio>
+        </div>
+    </section>
+
+    <!-- Contact Form -->
+    <section id="contact">
+        <h2>Get In Touch</h2>
+        <form>
+            <!-- Personal Details -->
+            <fieldset>
+                <legend>Personal Details</legend>
+                <div>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your name"><br>
+                </div>
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email">
+                </div>
+            </fieldset>
+
+            <!-- Feedback -->
+            <fieldset>
+                <legend>Feedback</legend>
+                <div>
+                    <label for="comments">Your Comments:</label><br>
+                    <textarea id="comments" name="comments" rows="4" cols="50" placeholder="Write your comments here"></textarea>
+                </div>
+                <div>
+                    <label for="country">Country:</label>
+                    <select id="country" name="country">
+                        <option value="Kenya">Kenya</option>
+                        <option value="Uganda">Uganda</option>
+                    </select>
+                </div>
+            </fieldset>
+
+            <div>
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; AMG 2025</p>
+        <p>Contact us through:</p>
+        <!-- Social Media Links -->
+        <a href="https://www.instagram.com/iamalvinmwangi" target="_blank">Instagram</a> |
+        <a href="https://www.facebook.com/iamalvinmwangi" target="_blank">Facebook</a>
+    </footer>
+</body>
+
 </html>
