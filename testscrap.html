@@ -18,6 +18,14 @@
             text-align: left;
         }
 
+        ul {
+            display: inline-block;
+            text-align: right;
+        }
+        dl {
+            display: inline-block;
+            text-align: left;
+        }
         /* Styling for table */
         table {
             width: 80%;
@@ -58,7 +66,7 @@
 
     <!-- Ordered List with Roman Numerals (Centered Properly 🎯) -->
     <h2>Ordered List (Roman Numerals)</h2>
-    <ol type="I">
+    <ol type="i" start="6">
         <li>Introduction to HTML5</li>
         <li>Working with Lists</li>
         <li>Tables and Forms</li>
@@ -66,11 +74,84 @@
         <li>Form Validations</li>
     </ol>
 
+    <h2>Unordered List (Not Roman Numerals)</h2>
+    <ul type="square">
+        <li>Introduction to HTML5</li>
+        <li>Working with Lists</li>
+        <li>Tables and Forms</li>
+        <li>Multimedia Elements</li>
+        <li>Form Validations</li>
+    </ul>
+
+    <h3>Definition Lists</h3>
+    <dl>
+        <dt>FBI</dt>
+        <dd>Federal beural of Investigation</dd>
+        <dt>AMG</dt>
+        <dd>Alvin Mwangi Generation</dd>
+        <dt>CN</dt>
+        <dd>Cess Njoki</dd>
+    </dl>
+
     <!-- External Image from Pexels -->
     <h2>External Image</h2>
     <img src="https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg" alt="Sample Image from Pexels">
 
+    <h2>My Image</h2>
+    <img src="N:\Projects\PLP Africa_SE\Images\Alvin.jpg" alt="a man standing in an event">
+    <img src="https://images.pexels.com/photos/1659438/pexels-photo-1659438.jpeg?auto=compress&cs=tinysrgb&w=600" alt="a man siting">
+
     <!-- Table with 5 Contacts -->
+
+    <h2>My Table</h2>
+    <table border="1">
+        <thead>
+            <tr>
+         <th>Name</th>
+         <th>Origin</th>
+         <th>Country</th>
+         <th>Gender</th>
+         <th>Networth</th>
+        </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Alvin</td>
+                <td>Alvin</td>
+                <td>Alvin</td>
+                <td>Alvin</td>
+                <td>Alvin</td>
+                </tr>
+            </tbody>
+
+    </table>
+
+    <h3>My Form</h3>
+    <form action="" method="">
+        <label for="full_names" >Full Names:</label>
+        <input type="text" id="name" placeholder="enter full name" required>
+        <br>
+        <label for="Gender">Gender</label>
+        <input type="radio" name="gender" value="male">Male
+        <input type="radio" name="gender" value="male">Female
+        <br>
+        <label for="language">Language</label>
+        <input type="checkbox" name="languages" value="Swiss">Swiss
+        <input type="checkbox" name="languages" value="British">British
+        <br><br>
+
+        <select name="country" id="country">
+            <option>--Select Country--</option>
+            <option value="British">British</option>
+            <option value="Switzerland">Switzerland</option> 
+            <option value="Kenya">Kenya</option> 
+            <option value="Croatia">Croatia</option> 
+            <option value="Argentina">Argentina</option>  
+        </select>
+        <input type="button" value="Submit Entry"
+        <br><br>
+        <button type="reset">Clear</button>
+        </form>
     <h2>Contact List</h2>
     <table>
         <tr>
