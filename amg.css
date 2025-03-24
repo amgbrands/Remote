@@ -1,0 +1,58 @@
+<style>
+/* Ensure full-width alignment */
+body {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Center header content */
+header {
+    background-color: #333;
+    color: white;
+    padding: 15px 0;
+}
+
+/* Navigation styling */
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+/* Center all sections */
+main, section, footer {
+    width: 80%;
+    margin: auto;
+    text-align: left;
+}
+
+/* Style lists */
+ol, ul {
+    margin-left: 30px;
+}
+
+/* Style the fieldset */
+fieldset {
+    border: 2px solid #ccc;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+}
+
+/* Style the submit button */
+button {
+    background-color: #333;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+</style>
